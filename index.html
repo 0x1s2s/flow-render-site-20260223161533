@@ -1,0 +1,25 @@
+﻿<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <title>Flow Site</title>
+  <style>
+    :root { --bg:#0b1020; --fg:#e9eefb; --accent:#5eead4; }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; font-family:Segoe UI,Arial,sans-serif; color:var(--fg); background:radial-gradient(circle at 20% 20%, #1b2a52, var(--bg)); }
+    main { max-width:760px; padding:48px 28px; border:1px solid #273252; border-radius:18px; background:rgba(12,18,35,.75); backdrop-filter: blur(4px); text-align:center; }
+    h1 { margin:0 0 10px; font-size: clamp(1.8rem, 4vw, 3rem); }
+    p { margin: 0 0 18px; line-height:1.5; color:#c7d2f0; }
+    .pill { display:inline-block; padding:10px 16px; border-radius:999px; border:1px solid #2f3f69; background:#111a33; }
+    .accent { color:var(--accent); font-weight:600; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Flow Website is Live</h1>
+    <p>This site was created and deployed automatically with GitHub + Render.</p>
+    <div class='pill'>Status: <span class='accent'>Online</span></div>
+  </main>
+</body>
+</html>
